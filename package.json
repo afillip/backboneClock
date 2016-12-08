@@ -1,0 +1,15 @@
+{
+  "name": "backboneClock",
+  "version": "0.0.1",
+  "description": "digital clock",
+  "main": "node.js",
+  "author": "Amanda Fillip",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon server/main.js --ignore client/"
+  },
+  "dependencies": {
+    "express": "latest",
+    "http": "latest",
+    "nodemon": "latest"
+  }
+}
